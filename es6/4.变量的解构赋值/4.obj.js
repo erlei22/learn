@@ -88,13 +88,28 @@ function test7() {
 
 function test8() {
     var arr = [2, 4, 6, 8];
-    var {
+    var arr2 = {
             0:a,
             1:b,
             [arr.length - 1]:d,
             [arr.length - 2]:c
     }= arr;
     //很奇怪，因为key在右边value在左边
+    console.log(arr2);
+    
 }
 // 左边数组右边只能是数组；左边对象，右边可以是数组，或对象
+// test8()
 
+// 【9】对象的默认值
+
+function test9() {
+    var {
+        a:A = 10,
+        b:B,
+        C = 20
+    } = { b:1 };
+    A;    //10
+    B;    //1
+    C;    //20  
+}

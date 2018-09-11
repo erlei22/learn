@@ -68,6 +68,21 @@ function test6() {
 }
 // test6()
 
+function test6_2() {
+    var a = {
+        x: {c: 1}
+    };
+    a.b.c;  //1
+    var {x} = a;
+    console.log(x.c);
+    
+    
+    x.c = 2;
+    x.c;    //2
+    console.log(a.b.c);
+        a.b.c;  //2
+}
+// test6_2()
 // 【7】用解构赋值可以方便的取出其他对象中的某个方法或属性
 
 function test7() {
@@ -96,7 +111,7 @@ function test8() {
     }= arr;
     //很奇怪，因为key在右边value在左边
     console.log(arr2);
-    
+    // arr2还是arr
 }
 // 左边数组右边只能是数组；左边对象，右边可以是数组，或对象
 // test8()

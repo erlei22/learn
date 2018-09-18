@@ -33,7 +33,10 @@ console.log("\u0041")
 ```` JavaScript
 console.log("A")    //这个我也会，
 console.log("\A")   //普通斜线法表示
-console.log("\101")     //
+console.log("\101")     //A  
+//斜线后直接数字会被认为是八进制，转换为十进制后是65，而ANSI码中的65表示大写的字符A
+console.log("\x41") //A
+//斜线是
 
 
 

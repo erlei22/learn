@@ -54,3 +54,6 @@ function test4_2() {
 // 4.3、开立方Math.cbrt()
 Math.cbrt(1)
 //开平方的是Math.sqrt();
+
+// 我的理解是应该和上面一样，先转number，再进行运算
+

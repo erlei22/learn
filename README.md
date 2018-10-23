@@ -3,9 +3,12 @@
 
 学~学Tmd
 
-学习资料是看水哥的博客<br>
+[学习资料是看水哥的博客](https://blog.csdn.net/qq20004604) <br>
+[还有阮一峰大神的文档](http://es6.ruanyifeng.com/)
 
-https://blog.csdn.net/qq20004604
+
+
+
 
 我就相等于跟着重新敲一遍~
 对我帮助很大~

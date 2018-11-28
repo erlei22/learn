@@ -1,9 +1,9 @@
-function show(...arguments) {
-    fn(...arguments)
-}
+// 解构赋值 
+let arr = [1,2,3]
+// let [a,b,c] = [...arr]
 
-function fn(a,b) {
-    console.log(a+b);
-}
+// let [a,b,c] = arr
 
-show(1,3,3)
+let {a,b,c} = {a:3,b:2,c:1}
+
+// console.log(a,b,c);

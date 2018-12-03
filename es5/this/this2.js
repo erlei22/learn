@@ -17,7 +17,7 @@ this.change = function () {
 }
 }
 Child.prototype = new Parent(); 
-// console.log(Child);
+// 这个是啥操作....
 
 var parent = new Parent();
 var child1 = new Child();

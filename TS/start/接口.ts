@@ -6,7 +6,7 @@ function greeter(person:Person) {
     return "Hellow, " + person.firstName + " " + person.lastName
 }
 
-let user = {firstName : "Jane" , lastName: "User" };
+let user = {firstName : "long" , lastName: "zhao" };
 
 document.body.innerHTML = greeter(user);
 

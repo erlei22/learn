@@ -291,7 +291,7 @@ class TableList extends PureComponent {
 
   columns = [
     {
-      title: '规则名称',
+      title: '规则名称1',
       dataIndex: 'name',
       render: text => <a onClick={() => this.previewItem(text)}>{text}</a>,
     },

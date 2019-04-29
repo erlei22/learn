@@ -5,6 +5,7 @@ npm-debug.log
 yarn-error.log
 .vscode/
 run/
+log/
 
 # Editor directories and files
 .idea

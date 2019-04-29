@@ -11,3 +11,4 @@ class NewsController extends Controller {
     await this.ctx.render('news/list.tpl', dataList);
   }
 }
+module.exports = NewsController

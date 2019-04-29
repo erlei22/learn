@@ -12,7 +12,9 @@ class HomeController extends Controller {
         }
       }
     );
-    this.ctx.body = test1;
+
+    
+    this.ctx.body = 'hello egg.js';
   }
 }
 

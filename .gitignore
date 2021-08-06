@@ -6,7 +6,7 @@ yarn-error.log
 .vscode/
 run/
 log/
-
+*.out
 # Editor directories and files
 .idea
 *.suo
